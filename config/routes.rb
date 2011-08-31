@@ -44,4 +44,6 @@ ActionController::Routing::Routes.draw do |map|
   map.backend 'backend',
     :controller => 'backend', :action => 'index'
 
+  map.main 'main' ,
+    :controller => 'home', :action => 'index'
 end
