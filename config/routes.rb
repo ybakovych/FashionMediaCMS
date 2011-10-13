@@ -46,4 +46,11 @@ ActionController::Routing::Routes.draw do |map|
 
   map.main 'main' ,
     :controller => 'home', :action => 'index'
+  
+  map.resources :news, :active_scaffold =>true
+ 
+  map.resources :articles, :active_scaffold =>true  
+  
+  
 end
+

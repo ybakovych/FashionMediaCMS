@@ -6,7 +6,7 @@ development:
   database: fmedia_dev
   host: localhost
   username: root
-  password: igor
+  password: vasyl
   reconnect: true
 
 # Warning: The database defined as "test" will be erased and
